@@ -6,9 +6,9 @@ public class FactoryTianjin extends Factory {
 	public Product createProduct(Type type) {
 		Product product = null;
 		switch(type){
-			case A: product = new ProductA();
+			case A: product = new ProductA("Tian Jin");
 				break;
-			case B: product = new ProductB();
+			case B: product = new ProductB("Tian Jin");
 	        	break;
 		}
 		return product;
